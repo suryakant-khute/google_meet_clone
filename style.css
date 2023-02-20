@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&display=swap');
+
+
+*{
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 2rem 0;
+    padding: 0 2.5rem;
+}
+hr{
+    margin: 0 2.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---section header start ------------- */
+body{
+    position: relative;
+}
+section .svg-setting svg{
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    cursor: pointer;
+}
+section .logo img{
+  width: 250px;
+  margin-left: -30px;
+  margin-top: -20px;
+  padding-bottom: 1rem;
+}
+section .logo-text h2{
+    font-size: 35px;
+    line-height: 2;
+    color: #5e5e5e;
+}
+section .logo-text p{
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+section .button-1 button{
+    padding: 0.5rem 1rem;
+    background-color: rgb(57, 57, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section .button-1 input{
+    padding: 0.5rem 1rem;
+    border: 2px solid rgb(189, 186, 186);
+    border-radius: 5px;
+    outline: none;
+}
+section .button-1 a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+
+}
+
+/* ========end========== */
+/* get start ========== */
+.get-start .left-item{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.get-start .left-item h4{
+    padding-right: 20px;
+}
+.get-start .left-item a{
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 2;
+}
+.get-start .center-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-start .center-item img{
+    width: 900px;
+    border: 2px solid lightgrey;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* ======start meet section ========= */
+section h3{
+    text-align: center;  
+}
+section .meet-one, .meet-two, .meet-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+}
+section .meet-one h2, .meet-two h2, .meet-three h2{
+    line-height: 2;
+}
+section .meet-one p, .meet-two p, .meet-three p{
+    line-height: 1.5;
+    padding-bottom: 8rem;
+}
+section .meet-one a, .meet-two a, .meet-three a{
+    text-decoration: none;
+    font-weight: 800;
+    color: blue;
+}
+section .meet-one .meet-right img, img{
+    width: 500px;
+}
+.logo-store{
+   margin-top: -30px;
+
+}
+/* ====only padding set of 3===== */
+section .meet-one .meet-left{
+   padding-right: 5rem;
+}
+section .meet-two .meet-left{
+   padding-right: 5rem;
+}
+section .meet-three .meet-left{
+   padding-right: 5rem;
+}
+section .logo-one .logo-store img{ 
+    width: 200px;
+}
+section .logo-one a{
+    line-height: 4rem;
+    text-decoration: none;
+    font-weight: 800;
+    color: blue;
+}
+/* =======start connection and sharing==== */
+section .connect-more{
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr );
+   grid-gap: 2.5rem;
+   padding: 2.5rem;
+   border-radius: 5px;
+}
+section .connect-more h2{
+    line-height: 2;
+}
+section .connect-items svg{
+    background-color: blue;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+section .connect-items svg:hover{
+    background-color: black;
+    cursor: pointer;
+}
+/* =====landing company ===== */
+#landing-head{
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    font-size: 28px;
+    color: #5e5e5e;
+}
+section .comp-logo .top img{
+    width: 100px;
+    margin: 1.5rem;
+}
+section .comp-logo .bottom img{
+    width: 100px;
+    margin: 1.5rem;
+}
+section .comp-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* ==========end========= */
+
+
+
+
+
+/* footer start ======== */
+footer{
+    background-color: lightgrey;
+}
+footer .footer-top {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+footer .footer-top h2{
+    padding-right: 1.5rem;
+    color: #5e5e5e;
+}
+footer .footer-top li{
+    text-decoration: none;
+    list-style-type: none;
+}
+footer .footer-top li a{
+    text-decoration: none;
+    padding-right: 1.5rem;
+    line-height: 28px;
+    color: rgb(94, 94, 94);
+    font-weight: 600;
+}
+
+footer .footer-bottom{
+    display: flex;
+    flex-direction: row;
+    line-height: 3.5rem;
+}
+footer svg{
+   margin-left: 1.5rem;
+   float: left;
+   color:#5e5e5e;
+}
+footer a{
+    line-height: 50px;
+    float: left;
+    padding-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #5e5e5e;
+}
+footer .footer-bottom select{
+    position: relative;
+    top: -5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #5e5e5e;
+}
+
+/* =============responsive for mobile ============== */
+
+@media(max-width:778px){
+    section .svg-setting svg{
+        position: absolute;
+        right: 20px;
+        top: -30px;
+        cursor: pointer;
+        width: 25px;
+    }
+    section .logo img{
+        width: 150px;
+    }
+    section .logo-text h2{
+        font-size: 20px;
+        line-height: 1;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    section .logo-text p {
+        line-height: 1;
+    }
+    section .button-1 button{
+        padding: 0.1rem 0.5rem;
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+    section .button-1 input{
+        padding: 0.1rem 0.2rem;
+    }
+    .get-start .left-item h4{ 
+        padding-right: -20px;
+        font-size: 11px;
+    }
+    .get-start .left-item a{
+        padding-right: -20px;
+        font-size: 10px;
+        line-height: 1.3;
+    }
+    .get-start .center-item img{
+        width: 80vw;
+    }
+    section h3 {
+        font-size: 16px;
+        line-height: 1;
+
+    }
+    section .button-1 a{
+        
+        font-size: 14px;
+        
+    }
+    
+
+    /* copy this code use for another one  */
+    section .meet-one .meet-right img, img{
+        width: 40vw;
+    }
+    section .meet-one .meet-left{
+        padding-right: 0rem;
+
+    }
+   
+    section .meet-one h2{
+        line-height: 1;
+        font-size: 12px;
+        padding-bottom: 1rem;
+    }
+    section .meet-one p{
+        line-height: 1;
+        font-size: 9px;
+        padding-bottom: 1rem;
+    }
+    
+    section .meet-one p{
+        padding: 0;
+        width: 50vw;
+    }
+    section .meet-one a{
+        font-size: 8px;
+    }
+   
+
+    /* pasted ======================= */
+
+    section .meet-two .meet-right img, img{
+        width: 40vw;
+    }
+    section .meet-two .meet-left{
+        padding-right: 0rem;
+
+    }
+   
+    section .meet-two h2{
+        line-height: 1;
+        font-size: 12px;
+        padding-bottom: 1rem;
+    }
+    section .meet-two p{
+        line-height: 1;
+        font-size: 9px;
+        padding-bottom: 1rem;
+    }
+    
+    section .meet-two p{
+        padding: 0;
+        width: 50vw;
+    }
+    section .meet-two a{
+        font-size: 8px;
+    }
+    section .meet-two .meet-right{
+        position: relative;
+        left: 2rem;
+    }
+    
+    /* pasted ================ */
+    section .meet-three .meet-right img, img{
+        width: 40vw;
+    }
+    section .meet-three .meet-left{
+        padding-right: 0rem;
+
+    }
+   
+    section .meet-three h2{
+        line-height: 1;
+        font-size: 12px;
+        padding-bottom: 1rem;
+    }
+    section .meet-three p{
+        line-height: 1;
+        font-size: 9px;
+        padding-bottom: 1rem;
+    }
+    
+    section .meet-three p{
+        padding: 0;
+        width: 50vw;
+    }
+    section .meet-three a{
+        font-size: 8px;
+    }
+    section .logo-one .logo-store img{
+        width: 20vw;
+        margin-bottom: 1rem;
+    }
+    section .logo-one a {
+        line-height: 1;
+        font-size: 8px;
+    }
+    .logo-store{
+        margin-top: 0px;
+     
+     }
+    /* =============connection sharing container ========== */
+    section .connect-more{
+        background-color: lightgrey;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+       grid-gap: 2.5rem;
+       padding: 2.5rem;
+       border-radius: 5px;
+    }
+    section .connect-more h2{
+        line-height: 1;
+        font-size: 14px;
+    }
+    section .connect-more p{
+        font-size: 11px;
+    }
+    section .connect-items svg{
+        padding: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    /* ==========landing companies==== */
+
+    #landing-head{
+        padding-top: 1rem;
+        font-size: 16px;
+        padding-bottom: 1.5rem;
+    }
+    section .comp-logo .top img{
+        width: 6vw;
+        margin: 1rem;
+
+    }
+    section .comp-logo .bottom img{
+        width: 6vw;
+        margin: 1rem;
+    }
+
+    /* =======bootsrap section ======= */
+    #top-que{
+        font-size: 16px;
+    }
+
+    /* ===========footer ========== */
+    footer .footer-top h2{
+        padding-right: 1rem;
+        font-size: 16px;
+    }
+    footer .footer-top li a{
+        padding-right: 0.2rem;
+        line-height: 1.8;
+        font-size: 12px;
+    }
+    footer svg{
+        width: 1.5rem;
+    }
+    footer a{
+        font-size: 14px;
+    }
+    footer .footer-bottom select,option{
+        font-size: 10px;
+    }
+}
