@@ -95,6 +95,13 @@ section .button-1 a{
 section h3{
     text-align: center;  
 }
+section h3 a{
+    color: black;   
+}
+section h3 a:hover{
+    color: black;   
+
+}
 section .meet-one, .meet-two, .meet-three{
     display: flex;
     flex-direction: row;
@@ -117,7 +124,7 @@ section .meet-one .meet-right img, img{
     width: 500px;
 }
 .logo-store{
-   margin-top: -30px;
+   margin-top: -40px;
 
 }
 /* ====only padding set of 3===== */
@@ -128,10 +135,12 @@ section .meet-two .meet-left{
    padding-right: 5rem;
 }
 section .meet-three .meet-left{
-   padding-right: 5rem;
+   /* padding-right: 2rem; */
 }
 section .logo-one .logo-store img{ 
-    width: 200px;
+    width: 150px;
+    padding-right: 5px;
+
 }
 section .logo-one a{
     line-height: 4rem;
@@ -170,17 +179,19 @@ section .connect-items svg:hover{
     color: #5e5e5e;
 }
 section .comp-logo .top img{
-    width: 100px;
+    width: 5vw;
     margin: 1.5rem;
+
 }
 section .comp-logo .bottom img{
-    width: 100px;
+    width: 5vw;
     margin: 1.5rem;
+  
+
 }
 section .comp-logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
+    justify-content: center;
     align-items: center;
 }
 /* ==========end========= */
@@ -209,7 +220,7 @@ footer .footer-top li{
 footer .footer-top li a{
     text-decoration: none;
     padding-right: 1.5rem;
-    line-height: 28px;
+    line-height: 3;
     color: rgb(94, 94, 94);
     font-weight: 600;
 }
@@ -225,7 +236,7 @@ footer svg{
    color:#5e5e5e;
 }
 footer a{
-    line-height: 50px;
+    line-height: 3;
     float: left;
     padding-right: 1.5rem;
     text-decoration: none;
@@ -287,6 +298,10 @@ footer .footer-bottom select{
         font-size: 16px;
         line-height: 1;
 
+    }
+    section h3 svg{
+        width: 20px;
+      
     }
     section .button-1 a{
         
@@ -444,9 +459,10 @@ footer .footer-bottom select{
         font-size: 16px;
     }
     footer .footer-top li a{
-        padding-right: 0.2rem;
-        line-height: 1.8;
-        font-size: 12px;
+        padding-right: 1rem;
+        line-height: 2;
+        font-size: 11px;
+        
     }
     footer svg{
         width: 1.5rem;
